@@ -26,3 +26,31 @@ console.log("Minutes" + minute);
 console.log(" Total seconds since 1970 are - " + seconds)
 
 
+
+// Question 12 - Different format of dates.
+
+// 1 - DD//MM/YYYY HH:MM format
+
+function Pad2todigits (num) {
+
+    return num.tostring().padstart(2,"0");
+
+}
+
+function datedformat (date) {
+
+    return[   
+            Pad2todigits(date.getDate()),
+            Pad2todigits(date.getMonth() + 1),
+            date.getFullYear(),
+
+
+
+
+
+    ]. join("/")
+
+
+
+}
+
