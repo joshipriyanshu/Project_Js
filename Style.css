@@ -1,0 +1,56 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#bg{
+    background-image: url(./pexels-pixabay-209831.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+
+.Main{
+
+    display: flex;
+    justify-content: center;
+   
+    width: 50%;
+    height: 80vh;
+    width: 80rem;
+    /* border: 5px solid black; */
+    background-color: whitesmoke;
+   
+}
+
+#weather{
+
+    margin-top: 40%
+}
+
+#temp {
+
+
+font-size: xx-large;
+font-weight: 800;
+color: red;
+}
+
+p{
+
+    color: crimson;
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: 900;
+    
+} 
